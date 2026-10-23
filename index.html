@@ -4,26 +4,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tchad Connect</title>
+  <meta name="theme-color" content="#12372a">
+  <meta name="description" content="Tchad Connect : la communauté qui rassemble les Tchadiens du pays et de la diaspora.">
+  <title>Tchad Connect — Un peuple, mille liens</title>
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 50px 20px;
-    }
-    h1 {
-      color: #007a3d;
-    }
-    p {
-      font-size: 18px;
-    }
+    /* Le design sera ajouté dans la partie 2 */
   </style>
 </head>
 <body>
-  <h1>🇹🇩 Bienvenue sur Tchad Connect !</h1>
-  <p>Le réseau social de la communauté tchadienne.</p>
-  <p>Ensemble, connectons le Tchad au monde.</p>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#accueil">
+        <span class="brand-icon">✳</span>
+        <span class="brand-name">Tchad Connect</span>
+      </a>
+
+      <button id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#accueil">Accueil</a>
+        <a href="#communaute">Communauté</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-green" href="#rejoindre">Nous rejoindre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">La communauté tchadienne connectée</p>
+          <h1>Le Tchad nous unit.<br>
+            <span>Le monde nous rapproche.</span>
+          </h1>
+          <p class="hero-description">
+            Retrouvons-nous, partageons notre culture,
+            développons la solidarité et créons des liens
+            entre les Tchadiens du pays et de la diaspora.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#rejoindre">
+              Rejoindre la communauté →
+            </a>
+            <a class="btn btn-outline" href="#communaute">
+              Découvrir le réseau
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1100&q=85"
+            alt="Paysage africain"
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="communaute">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Notre communauté</p>
+          <h2>Un réseau, mille possibilités</h2>
+          <p>Un espace pour se rencontrer, échanger et s'entraider.</p>
+        </div>
+
+        <div class="features">
+          <article class="feature-card">
+            <div class="feature-icon">💬</div>
+            <h3>Échanger</h3>
+            <p>Partager nos idées, nos expériences et nos actualités.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🤝</div>
+            <h3>S'entraider</h3>
+            <p>Encourager la solidarité dans toute notre communauté.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🎉</div>
+            <h3>Se retrouver</h3>
+            <p>Découvrir les événements et les initiatives tchadiennes.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🌍</div>
+            <h3>Rayonner</h3>
+            <p>Rapprocher le Tchad et sa diaspora dans le monde.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section about" id="apropos">
+      <div class="container about-grid">
+        <img
+          class="about-image"
+          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=85"
+          alt="Communauté réunie"
+          loading="lazy"
+        >
+
+        <div>
+          <p class="section-label">Notre vision</p>
+          <h2>Plus proches, même à des milliers de kilomètres.</h2>
+          <p>
+            Tchad Connect ambitionne de devenir un espace
+            accueillant où les Tchadiens peuvent partager
+            leurs projets, valoriser leur culture et créer
+            de nouvelles opportunités.
+          </p>
+          <ul>
+            <li>Valoriser la culture tchadienne.</li>
+            <li>Rapprocher le pays et la diaspora.</li>
+            <li>Encourager les projets et l'entraide.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="rejoindre">
+      <div class="container community-banner">
+        <h2>Ta place est parmi nous !</h2>
+        <p>
+          Ensemble, construisons une communauté tchadienne
+          plus proche, solidaire et connectée.
+        </p>
+        <a class="btn btn-primary" href="#contact">
+          Je veux participer →
+        </a>
+      </div>
+    </section>
+
+    <section class="content-section" id="contact">
+      <div class="container section-heading">
+        <p class="section-label">Restons connectés</p>
+        <h2>Contacte Tchad Connect</h2>
+        <p>Une idée ou une suggestion ? Nous serons heureux de t'écouter.</p>
+        <a class="btn btn-green" href="mailto:contact@tchadconnect.com">
+          Nous contacter par e-mail
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Tchad Connect — Un peuple, mille liens. 🇹🇩</p>
+      <p>© <span id="currentYear"></span> Tchad Connect</p>
+    </div>
+  </footer>
+
+  <script>
+    // Le fonctionnement du menu sera ajouté dans la partie 3.
+  </script>
+
 </body>
 </html>
